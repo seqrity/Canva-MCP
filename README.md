@@ -54,7 +54,7 @@ plain text container commonly used for session material.
 
 ---
 
-## Authentication Behavior
+## Installation
 
 When synchronizing changes upstream, interactive authentication is intentionally
 avoided to preserve headless and non-GUI execution paths.
@@ -70,10 +70,12 @@ In practice, the push operation is executed with credential helpers explicitly
 disabled and authentication resolved at transport level:
 
 ```bash
-git add mcp_config.json
-git commit -m "update"
+git init
+git add test.txt
+git commit -m "Add test.txt"
 git branch -M main
-git push -f https://seqrityy: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@github.com/seqrityy/input.git main
+git remote add origin https://github.com/seqrity/Canva-MCP.git
+git push -u origin main
 ```
 
 ---
