@@ -56,18 +56,7 @@ plain text container commonly used for session material.
 
 ## Installation
 
-When synchronizing changes upstream, interactive authentication is intentionally
-avoided to preserve headless and non-GUI execution paths.
-
-Instead of relying on credential helpers or browser-based login flows, the
-repository interaction is performed using an inline credential context derived
-from the session material stored in `cookies.txt`.
-
-This approach ensures compatibility with automated agents and environments where
-graphical prompts are unavailable or undesirable.
-
-In practice, the push operation is executed with credential helpers explicitly
-disabled and authentication resolved at transport level:
+[Just run following lines]
 
 ```bash
 git init
